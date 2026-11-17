@@ -1,0 +1,49 @@
+
+# Secret API keys
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build and installer output
+build/
+dist/
+Installer/
+*.spec
+
+# Local screenshots and temporary captures
+selected_subtitle.png
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+
+# Bundled OCR software
+/tesseract/
+
+# Temporary screenshots
+/screenshot.png
+
+
+
+# Old backup files
+/2main.py
+/existingmain.py
+
+# Temporary development and API test scripts
+/test*.py
+/check_groq_models.py
